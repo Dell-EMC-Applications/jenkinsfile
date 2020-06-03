@@ -3,7 +3,7 @@ node("node1")
     def MavenHome = tool name: "maven3.6.3"
     stage("Checkout code")
     {
-        git branch: 'development', credentialsId: '3e8541bc-47af-4878-b4f7-900a5d99d1e6', url: 'https://github.com/Dell-EMC-Applications/CMS-abc.git'
+        git branch: 'development', credentialsId: '3e8541bc-47af-4878-b4f7-900a5d99d1e6', url: 'https://github.com/Dell-EMC-Applications/Pfizerabc.git'
     }
     stage("Build")
     {
